@@ -51,14 +51,14 @@ function M.groups(theme)
         }, -- Normal text in floating windows.
         FloatBorder = { bg = config.options.transparency and "NONE" or theme.palette.bg, fg = theme.palette.gray },
         Pmenu = {
-            bg = (theme.meta.light == false and color.darken(theme.palette.bg, 0.85) or color.darken(
-                theme.palette.bg,
+            bg = (theme.meta.light == false and color.darken(theme.palette.float_bg or theme.palette.bg, 0.85) or color.darken(
+                theme.palette.float_bg or theme.palette.bg,
                 0.95
             )),
         }, -- Popup menu: normal item.
         PmenuSel = {
             bg = (theme.meta.light == false and color.lighten(theme.palette.bg, 0.97) or color.darken(
-                theme.palette.bg,
+                theme.palette.selection_bg or theme.palette.bg,
                 0.98
             )),
         }, -- Popup menu: selected item.
