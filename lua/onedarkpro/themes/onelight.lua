@@ -46,7 +46,7 @@ local function generate(palette)
         virtual_text_error = palette.virtual_text_error or color.lighten(palette.red, 0.6),
         virtual_text_warning = palette.virtual_text_warning or color.lighten(palette.yellow, 0.6),
         virtual_text_information = palette.virtual_text_information or color.lighten(palette.blue, 0.6),
-        virtual_text_hint = palette.virtual_text_hint or color.lighten(palette.cyan, 0.6),
+        virtual_text_hint = palette.virtual_text_hint or color.lighten(palette.gray, 0.6),
     }
 end
 
