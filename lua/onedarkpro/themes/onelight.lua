@@ -5,18 +5,19 @@ local meta = {
 }
 
 local palette = {
-    bg = "#fafafa",
-    fg = "#6a6a6a",
-    red = "#e05661",
-    orange = "#ee9025",
-    yellow = "#eea825",
-    green = "#1da912",
-    cyan = "#56b6c2",
-    blue = "#118dc3",
-    purple = "#9a77cf",
+    black = "#000000",
+    gray = "#868686",
+    red = "#fd2231",
+    fg = "#000000",
+    bg = "#ffffff",
+    orange = "#aa7005",
+    yellow = "#cc8b0e",
+    purple = "#7e38e8",
+    green = "#128409",
+    cyan = "#1a99a9",
+    blue = "#1179cb",
+
     white = "#fafafa",
-    black = "#6a6a6a",
-    gray = "#bebebe",
     highlight = "#e2be7d",
     none = "NONE",
 }
